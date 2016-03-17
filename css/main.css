@@ -222,6 +222,10 @@ aside.sidebar ul li {
     padding: 0 0 0.525em 0;
 }
 
+aside.sidebar ul li:nth-child(2n+3) {
+    font-weight: bold
+}
+
 aside.sidebar ul li::after{
     counter-increment: counter-section;
     content: counter(counter-section);
@@ -260,6 +264,10 @@ div.benefits {
 div.requirements {
     background: rgba(255, 255, 255, 0.9);
     padding: 5%;
+}
+
+div p::first-letter{
+    font-weight: bold;
 }
 
 /* ----------------------------------------------------------------------------------------------------------
